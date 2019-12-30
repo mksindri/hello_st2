@@ -1,0 +1,15 @@
+# Pack reference. It can only contain letters, digits and underscores.
+ref: hello_st2
+name: Hello StackStorm
+description: Simple pack containing examples of sensor, rule, and action.
+keywords:
+    - example
+    - test
+version: 3.1.0
+python_versions:
+  - "2"
+  - "3"
+author: StackStorm, Inc.
+email: info@stackstorm.com
+contributors:
+  - "Mukesh Kumar <mukesh.kumar_5375@nihilent.com>"
