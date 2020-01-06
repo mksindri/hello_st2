@@ -1,13 +1,13 @@
 ---
 name: greet
-pack: hello_st2
+pack: vm_task_queue
 runner_type: "local-shell-script"
 description: Greet StackStorm!
 enabled: true
-entry_point: greet.sh
+entry_point: greet.py
 parameters:
-    greeting:
+    greeting:greeting
         type: string
         description: Greeting you want to say to StackStorm (i.e. Hello, Hi, Yo, etc.)
         required: true
-        position: 1
+        position: 11

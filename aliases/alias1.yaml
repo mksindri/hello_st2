@@ -1,7 +1,7 @@
 ---
-name: greet
-pack: hello_st2
+name: action1
+pack: vm_task_queue
 description: "Greet StackStorm"
-action_ref: "hello_st2.greet"
+action_ref: "vm_task_queue.greet"
 formats:
-  - "greet {{greeting}}"
+  - "action1 {{greeting}}"
