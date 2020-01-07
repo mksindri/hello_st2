@@ -6,6 +6,6 @@ enabled: true
 trigger:
     type: vm_task_queue.event1
 action:
-    ref: vm_task_queue.greet
+    ref: vm_task_queue.action1
     parameters:
         greeting: Yo
