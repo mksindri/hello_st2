@@ -4,4 +4,4 @@ pack: vm_task_queue
 description: "Greet StackStorm"
 action_ref: "vm_task_queue.greet"
 formats:
-  - "action1 {{greeting}}"
+  - "greet {{greeting}}"
