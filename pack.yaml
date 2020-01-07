@@ -7,9 +7,10 @@ keywords:
     - top 5 process
     - disk utilization
     - cpu utilization
-version: 3.1.0
+version: 1.1.0
 python_versions:
-  - "1"
+  - "2"
+  - "3"
 author: Mukesh Kumar.
 email: mukesh.kumar_5375@nihilent.com
 contributors:
