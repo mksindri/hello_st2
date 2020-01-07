@@ -1,5 +1,5 @@
 ---
-class_name: "HelloSensor"
+class_name: "Sensor1"
 entry_point: "sensor1.py"
 description: "Test sensor that emits triggers."
 trigger_types:

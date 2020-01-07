@@ -1,10 +1,10 @@
 ---
-name: greet
+name: action1
 pack: vm_task_queue
-runner_type: "local-shell-script"
-description: Greet StackStorm!
+runner_type: "python-script"
+description: Action Process List!
 enabled: true
-entry_point: greet.py
+entry_point: action1.py
 parameters:
     greeting:greeting
         type: string

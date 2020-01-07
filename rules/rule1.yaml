@@ -1,11 +1,11 @@
 ---
-name: on_hello_event1
-pack: hello_st2
-description: Sample rule firing on hello_st2.event1.
+name: rule1
+pack: vm_task_queue
+description: Sample rule firing on vm_task_queue.event1.
 enabled: true
 trigger:
-    type: hello_st2.event1
+    type: vm_task_queue.event1
 action:
-    ref: hello_st2.greet
+    ref: vm_task_queue.action1
     parameters:
         greeting: Yo
