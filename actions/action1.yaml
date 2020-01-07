@@ -6,8 +6,8 @@ description: Action Process List!
 enabled: true
 entry_point: action1.py
 parameters:
-    greeting
+    greeting:
         type: string
         description: Greeting you want to say to StackStorm (i.e. Hello, Hi, Yo, etc.)
         required: true
-        position: 11
+        #position: 11
