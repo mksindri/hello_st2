@@ -30,8 +30,8 @@ STORAGE_ACCOUNT_NAME = haikunator.haikunate(delimiter='')
 
 IP_CONFIG_NAME = '203.18.137.2'
 NIC_NAME = 'azure-sample-nic'
-USERNAME = 'mukesh.kumar_5375@nihilent.com'
-PASSWORD = 'nihilent@123'
+USERNAME = '****@*****.com'
+PASSWORD = '**********'
 VM_NAME = 'Testvm2'
 
 VM_REFERENCE = {
